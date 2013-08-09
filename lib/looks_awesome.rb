@@ -1,4 +1,9 @@
 require "looks_awesome/version"
+require 'chunky_png'
+require 'oily_png'
+
+include ChunkyPNG::Color
+
 
 module LooksAwesome
   module DSL
