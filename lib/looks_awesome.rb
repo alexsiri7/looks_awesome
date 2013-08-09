@@ -85,7 +85,7 @@ module LooksAwesome
       
       if @base_image.pixels.length != @current_image.pixels.length
         show_error "The images differ in size"
-      elsif difference_percent > 1
+      elsif difference_percent > 0
         show_error "The images were different in #{difference_percent}%"
       else
         File.delete(@compare_name)
