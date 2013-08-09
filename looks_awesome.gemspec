@@ -6,10 +6,10 @@ require 'looks_awesome/version'
 Gem::Specification.new do |spec|
   spec.name          = "looks_awesome"
   spec.version       = LooksAwesome::VERSION
-  spec.authors       = ["Alex"]
-  spec.email         = ["alexsiri7@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.authors       = ["Rentify"]
+  spec.email         = ["alex@rentify.com"]
+  spec.description   = %q{Adds a method it_looks_nice to your rspecs, that allow you to check your css in your site using screenshots}
+  spec.summary       = %q{Adds a method it_looks_nice to your rspecs}
   spec.homepage      = ""
   spec.license       = "MIT"
 
