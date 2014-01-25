@@ -1,6 +1,8 @@
 # LooksAwesome
 
-TODO: Write a gem description
+Looks Awesome helps you write regression tests for the UI of your application.
+
+You only need to add, to your rspec capybara features, `it_looks_awesome`. Looks awesome will take a screenshot the first time you run it, and ask you if it, actually, looks awesome. If it does, you add it to your version control, and following runs check that the page still renders the same way. If anything changes, it shows you the differences and asks if it still looks awesome.
 
 ## Installation
 
